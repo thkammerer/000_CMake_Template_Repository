@@ -1,0 +1,52 @@
+#----------------------------------------------------------------------------
+# gitignore - Specifies intentionally untracked files to be ignored by git
+# 
+# documentation: https://git-scm.com/docs/gitignore
+#
+# helpful link to understand. https://gist.github.com/Ben-Kaniobi/c528376a76765e99058c#dateien-ignorieren-mit-gitignore-datei
+# helpful templates: https://github.com/github/gitignore
+#----------------------------------------------------------------------------
+
+# ide files
+/out/*
+!out/README.md
+
+/build/*
+!build/README.md
+
+# Documents
+*.doc
+*.docx
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
