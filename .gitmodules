@@ -1,6 +1,3 @@
-[submodule "exter/unit_test/Catch2"]
-	path = exter/unit_test/Catch2
-	url = https://github.com/catchorg/Catch2.git
 [submodule "extern/unit_test/Catch2"]
 	path = extern/unit_test/Catch2
 	url = https://github.com/catchorg/Catch2.git

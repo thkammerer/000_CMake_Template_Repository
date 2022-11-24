@@ -6,6 +6,7 @@ target_include_directories(Catch INTERFACE ${CATCH_INCLUDE_DIR})
 # Make test executable
 set( TEST_SOURCES 
      test_main.cpp 
+     test_something.cpp
 )
 
 string( CONCAT TARGET_NAME ${CMAKE_PROJECT_NAME} _tests )

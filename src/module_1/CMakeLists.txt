@@ -1,11 +1,11 @@
 set( MY_SOURCES 
 # insert sources
-     src_1.cpp
+     something.cpp
 )
 
 set( MY_PUBLIC_HEADERS 
 # insert headers
-     src_1.hpp
+     something.hpp
 )
 
 # to reference internal used headers
