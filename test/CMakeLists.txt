@@ -6,7 +6,7 @@ target_include_directories(Catch INTERFACE ${CATCH_INCLUDE_DIR})
 # Make test executable
 set( TEST_SOURCES 
      test_main.cpp 
-     test_something.cpp
+     test_rectangle.cpp
 )
 
 string( CONCAT TARGET_NAME ${CMAKE_PROJECT_NAME} _tests )
@@ -18,7 +18,7 @@ target_link_libraries( ${TARGET_NAME} Catch )
 
 # link libraries to test
 # change this to your module name
-target_link_libraries( ${TARGET_NAME} module_1 )
+target_link_libraries( ${TARGET_NAME} geometry )
 
 # install binary to bin directory
 install( TARGETS ${TARGET_NAME} DESTINATION test )

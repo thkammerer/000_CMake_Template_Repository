@@ -8,7 +8,7 @@ add_executable( ${TARGET_NAME} ${MY_SOURCES} )
 
 # link libraries to exe 
 # rename linked module names!
-target_link_libraries( ${TARGET_NAME} module_1 )
+target_link_libraries( ${TARGET_NAME} geometry )
 
 # install binary to bin directory
 install( TARGETS ${TARGET_NAME} DESTINATION bin )

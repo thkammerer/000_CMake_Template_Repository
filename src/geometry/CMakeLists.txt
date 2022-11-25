@@ -1,11 +1,12 @@
 set( MY_SOURCES 
 # insert sources
-     something.cpp
+     triangle.cpp
 )
 
 set( MY_PUBLIC_HEADERS 
 # insert headers
-     something.hpp
+     triangle.hpp
+     geometric_error.hpp
 )
 
 # to reference internal used headers
@@ -15,7 +16,7 @@ set( MY_PUBLIC_HEADERS
 
 set( TARGET_NAME
 # rename library name
-     module_1
+     geometry
 )
 
 add_library( ${TARGET_NAME}  ${MY_SOURCES}  )

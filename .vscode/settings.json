@@ -3,4 +3,7 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "cmake.installPrefix": "${workspaceRoot}/out",
     "cmake.configureOnOpen": true,
+    "files.associations": {
+        "random": "cpp"
+    },
 }
